@@ -1,8 +1,9 @@
 AndrewErb.com blog
-built in Hyde, a Python alternative to Jekyll
-hyde.github.io [http://hyde.github.io/]
-by Andrew Erb
+by Andrew Erb, for andrewerb.com
 
-Very very much in progress
+Built in Hyde, a Python static site generator / alternative to Jekyll
+The Hyde project is available at [hyde.github.io] (http://hyde.github.io/ "hyde.github.io")
+
+This is very very much in progress
 
 
