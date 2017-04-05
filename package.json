@@ -1,0 +1,20 @@
+{
+  "name": "andrewerb.com_devblog",
+  "version": "0.0.2",
+  "description": "AndrewErb.com blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewerb/hyde-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewerb/hyde-blog/issues"
+  },
+  "homepage": "https://github.com/andrewerb/hyde-blog#readme"
+}
