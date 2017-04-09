@@ -1,1 +1,11 @@
 /* Bootstrap 4 Blog CSS */
+
+body{
+    background-color: #E0F4FC; 
+    height: 100%; 
+    position: relative;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2B527B; /*23527B*/
+}
