@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/blog.css">
 </head>
 <body>
-    <header class="container-fluid jumbotron">
+    <header class="container-fluid jumbotron hidden-md-up">
         <div class="row">
             <div class="col-lg-8 col-md-8">
                 <p><h1>Jumbotron - header</h1></p>
@@ -27,46 +27,42 @@
 
     <div class="container page-header blog-header">
         <div class="row">
-            <h1>Blog Heading stuff</h1>
+            <div class="col-12">
+                <h1>Blog Heading h1</h1>
+                <h3>This is a blog layout, in Bootstrap 4.</h3>
+                <p class="lead">This is lead text.</p>
+                <br>
+            </div>
         </div>
     </div>
 
-    <div class="container page-content">
+    <div class="container page-content"><!-- RELEVANT TEST FIELD STUFF -->
         <div class="row">
-
-            <div class="col-md-offset-2 col-md-6 blog-content blog-posts post-field">
-                / POSTS
-                /
-                /
-                /
-                /
-                <div class="row post">
-                    <h1>POST 1</h1>
-                    <p>Lorem ipsum</p>
+            <div class="offset-1 col-6">
+                <div class="blog-post"> <!-- POST CONTAINER - NON-ROW -->
+                    <h2>
+                        Blog post testing
+                    </h2>
+                    <p class="lead">Lead text</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit, elit vel hendrerit auctor, nunc metus euismod quam, ac varius metus ligula eu turpis. Vestibulum dignissim volutpat tellus, non ultrices tortor pretium sit amet. Sed laoreet facilisis lacus. Aenean efficitur lectus nisl, eu rhoncus ex ornare eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque sed tortor et mauris viverra fermentum vel ut lectus. Maecenas sed lobortis diam, eu iaculis metus. Mauris vel urna ut dui blandit tincidunt. Aenean imperdiet orci enim, ac pellentesque dolor elementum et. Maecenas massa tortor, rutrum eget lectus nec, maximus pharetra tortor. Integer mattis orci mauris. Vestibulum libero mi, interdum quis augue at, consequat tincidunt nulla. Vestibulum placerat, mi sit amet blandit ultrices, quam felis rutrum erat, nec congue risus ex vitae lorem. Curabitur auctor dignissim tincidunt.</p>
                 </div>
-                <div class="row post">
-                    <h1>POST2 </h1>
-                    <p>
-                        Lorem ipsum
-                    </p>
+                <div class="row"> <!-- POST CONTAINER - ROW -->
+                    <div class="col-12">
+                        <h2>
+                            Blog post test p2
+                        </h2>
+                        <p class="lead">MORE BLOG POST TESTING</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit, elit vel hendrerit auctor, nunc metus euismod quam, ac varius metus ligula eu turpis. Vestibulum dignissim volutpat tellus, non ultrices tortor pretium sit amet. Sed laoreet facilisis lacus. Aenean efficitur lectus nisl, eu rhoncus ex ornare eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque sed tortor et mauris viverra fermentum vel ut lectus. Maecenas sed lobortis diam, eu iaculis metus. Mauris vel urna ut dui blandit tincidunt. Aenean imperdiet orci enim, ac pellentesque dolor elementum et. Maecenas massa tortor, rutrum eget lectus nec, maximus pharetra tortor. Integer mattis orci mauris. Vestibulum libero mi, interdum quis augue at, consequat tincidunt nulla. Vestibulum placerat, mi sit amet blandit ultrices, quam felis rutrum erat, nec congue risus ex vitae lorem. Curabitur auctor dignissim tincidunt.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-offset-1 col-md-2 right-col">
-                <div>
-                    <p>Andrew wuz here</p>
-                </div>
+            <div class="offset-1 col-4">
+                <h2>About Column.</h2>
+                <p>Side column stuff.</p>
             </div>
         </div>
-        <!-- -->
         
-        <div class="row post">
-            <div class="col-md-10 blog-posts">
-                <h1>NOT SURE IF KEEPING THIS</h1>
-                <h3>Heading1</h3>
-                <p>Post1</p>
-            </div>
-        </div>
-    </div>
+    </div>  <!-- END OF CONTAINER -->
 
     <footer>
         <h1>Footer</h1>
