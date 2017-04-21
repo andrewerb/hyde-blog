@@ -14,3 +14,15 @@ body{
     /*display: block;*/
     border: 1px, solid, #fff;
 }
+
+.blog-sidebar {
+}
+
+.blog-sidebar div {
+    padding: 1rem;
+}
+
+.blog-sidebar .sidebar-module-inset {
+    border-radius: .25rem;
+    background-color: #b1e3fa;
+}
